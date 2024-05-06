@@ -1,0 +1,19 @@
+{
+  "name": "option-x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc --watch --outDir dist index.ts | nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.21",
+    "socket.io": "^4.7.3"
+  },
+  "author": "Lakshit goel",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
