@@ -5,15 +5,22 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsc --watch --outDir dist index.ts | nodemon dist/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node dist/index.js"
   },
   "dependencies": {
-    "@types/express": "^4.17.21",
-    "socket.io": "^4.7.3"
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "ioredis": "^5.4.1",
+    "socket.io": "^4.7.5",
+    "typescript": "^5.4.5"
   },
   "author": "Lakshit goel",
   "license": "MIT",
   "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.12.10",
+    "@types/socket.io": "^3.0.2",
     "nodemon": "^3.1.0"
   }
 }
